@@ -1,0 +1,13 @@
+{
+  "appDir": "./weapp",
+  "cos": {
+    "appid": "1253118667",
+    "bucketname": "weimall",
+    "folder": "/", 
+    "region": "sh", //创建bucket时选择的地域简称
+    "secret_key": "2s3wlPuDKFyWs260jMo5C7vXyEQWRAi4",
+    "secret_id": "AKID54teEd1tpaBg4KNGxSlvuhIiBVdZFt15",
+  },
+  //"replaceHost": "",
+  //"targetHost": "你的图片存放地址",
+}

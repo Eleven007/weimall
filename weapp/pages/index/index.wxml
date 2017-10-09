@@ -1,0 +1,83 @@
+<!--index.wxml-->
+<view class="container">
+  <navigator hover-class="none" url="" open-type="redirect">
+    <view class='header'>
+      <image src='../../images/tc.png' class='tc'></image>
+      <view class='intro'>
+        <view class='h3'>我要开课</view>
+        <view class='h4'>变身导师成就更多人生</view>
+      </view>
+    </view>
+  </navigator>
+  <view class='main'>
+    <view class='hd'>我的课程</view>
+    <view class='bd'>
+      <view class='citem'>
+        <view class='top'>
+          <view class='title'>
+            10万销售业绩的必经之路
+          </view>
+          <view class='time'>
+            <image src='../../images/time.png'></image>
+            <text> 2017-02-02 12:00</text>
+          </view>
+          <image class='share' src='../../images/share.png'></image>
+        </view>
+        <view class='bottom'>
+          <view class='user'>
+            <image class='avator' src='../../images/img2.jpg'></image>
+            <text class='name'>王谢</text>
+          </view>
+          <view class='guanzhu'>
+          <view class='btn blue'>关注</view>
+          <view class='count'>已有<text class='num'>120</text>人关注</view>
+          </view>
+        </view>
+      </view>
+       <view class='citem'>
+        <view class='top'>
+          <view class='title'>
+            10万销售业绩的必经之路
+          </view>
+          <view class='time'>
+            <image src='../../images/time.png'></image>
+            <text> 2017-02-02 12:00</text>
+          </view>
+          <image class='share' src='../../images/share.png'></image>
+        </view>
+        <view class='bottom'>
+          <view class='user'>
+            <image class='avator' src='../../images/img2.jpg'></image>
+            <text class='name'>王谢</text>
+          </view>
+          <view class='guanzhu'>
+          <view class='btn'>已关注</view>
+          <view class='count'>已有<text class='num'>120</text>人关注</view>
+          </view>
+        </view>
+      </view>
+       <view class='citem'>
+        <view class='top'>
+          <view class='title'>
+            10万销售业绩的必经之路10万销售业绩的必经之路10万销售业绩的必经之路
+          </view>
+          <view class='time'>
+            <image src='../../images/time.png'></image>
+            <text> 2017-02-02 12:00</text>
+          </view>
+          <image class='share' src='../../images/share.png'></image>
+        </view>
+        <view class='bottom'>
+          <view class='user'>
+            <image class='avator' src='../../images/img2.jpg'></image>
+            <text class='name'>王谢</text>
+          </view>
+          <view class='guanzhu'>
+          <view class='btn blue'>关注</view>
+          <view class='count'>已有<text class='num'>120</text>人关注</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
