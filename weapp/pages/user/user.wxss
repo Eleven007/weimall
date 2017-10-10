@@ -1,1 +1,42 @@
 /* pages/user/user.wxss */
+
+.hd {
+  display: flex;
+  height: 176rpx;
+  background-color: #fff;
+  align-items: center;
+}
+
+.avator {
+  margin-left: 30rpx;
+  margin-right: 25rpx;
+}
+
+.avator image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 10rpx;
+  background-color: #b4b4b4;
+  border: solid 1px #b4b4b4;
+}
+
+.path image {
+  width: 16rpx;
+  height: 25rpx;
+  margin-right: 30rpx;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-size: 36rpx;
+  line-height: 50rpx;
+  color: #000;
+}
+
+.desc {
+  font-size: 26rpx;
+  color: #aaa;
+}

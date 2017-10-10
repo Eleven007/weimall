@@ -1,0 +1,87 @@
+<!--pages/live/live.wxml-->
+<view class='container'>
+  <view class='live'>
+    <!-- <image src='../../images/img1.jpg'></image> -->
+    <view class='title'>10万销售业绩的必经之路</view>
+    <video src='rtmp://live.hkstv.hk.lxdns.com/live/hks'></video>
+    <!-- <view class='timeline'>
+      <view class='point'></view>
+      <view class='status'>正在直播</view>
+      <view class='time'>00:00:00</view>
+    </view> -->
+  </view>
+  <view class='switch'>
+    <view class='all on'>课堂互动</view>
+    <view class='tc'>只看老师</view>
+  </view>
+  <view class='comment'>
+    <scroll-view scroll-y>
+      <view class='con'>
+        <view class='item blue'>
+          <view class='user'>王谢[老师]：</view>
+          <view class='txt'>大家好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+        <view class='item'>
+          <view class='user'>逍遥：</view>
+          <view class='txt'>老师好</view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class='submit'>
+    <input></input>
+    <button class='btn-submit'>发送</button>
+  </view>
+</view>

@@ -1,7 +1,8 @@
 {
   "pages": [
+    "pages/user/user",
     "pages/index/index",
-    "pages/user/user"
+    "pages/live/live"
   ],
   "window": {
     "backgroundTextStyle": "#fff",
@@ -10,16 +11,16 @@
     "navigationBarTextStyle": "#fff"
   },
   "tabBar": {
-    "color":"#7f8389",
-    "selectedColor":"#2fa2ff",
-    "backgroundColor":"#ffffff",
-    "borderStyle":"white",
-    "position":"bottom",
+    "color": "#7f8389",
+    "selectedColor": "#2fa2ff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "position": "bottom",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "微商课堂",
-        "iconPath":"images/class2.png",
+        "iconPath": "images/class2.png",
         "selectedIconPath": "images/class1.png"
       },
       {
