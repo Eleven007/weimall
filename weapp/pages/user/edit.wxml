@@ -1,0 +1,7 @@
+<!--pages/user/edit.wxml-->
+<view class='container'>
+  <view class='item'>
+    <input class='label' value='想名字好麻烦' placeholder='请输入姓名'></input>
+    <image class='path' src='../../images/path.png' bindtap=''></image>
+  </view>
+</view>

@@ -1,0 +1,122 @@
+
+.main {
+}
+
+.main .hd {
+  font-size: 32rpx;
+  color: #202020;
+  height: 68rpx;
+  line-height: 68rpx;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.citem {
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  padding-bottom: 10rpx;
+}
+
+.nav {
+  padding-left: 24rpx;
+  padding-right: 16rpx;
+}
+
+.top {
+  margin-top: 10rpx;
+  position: relative;
+  padding-right: 64rpx;
+}
+
+.title {
+  font-size: 32rpx;
+  color: #000;
+  line-height: 48rpx;
+}
+
+.time {
+  line-height: 32rpx;
+  margin-top: 2rpx;
+}
+
+.time image {
+  width: 26rpx;
+  height: 26rpx;
+  vertical-align: middle;
+}
+
+.time text {
+  font-size: 28rpx;
+  color: #000;
+}
+
+.check {
+  position: absolute;
+  font-size: 32rpx;
+  height: 46rpx;
+  line-height: 46rpx;
+  right: 0rpx;
+  top: 16rpx;
+}
+.check image{
+  height: 46rpx;
+  width: 46rpx;
+  vertical-align: top;
+}
+.bottom {
+  padding-top: 16rpx;
+  position: relative;
+}
+
+.user {
+  line-height: 80rpx;
+}
+
+.avator {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 80rpx;
+  background-color: #b4adab;
+  vertical-align: middle;
+}
+
+.name {
+  font-size: 28rpx;
+  color: #000;
+  margin-left: 15rpx;
+}
+
+.guanzhu {
+  position: absolute;
+  right: 0;
+  top: 7rpx;
+  text-align: right;
+}
+
+.btn {
+  display: inline-block;
+  width: 120rpx;
+  height: 54rpx;
+  border-radius: 10rpx;
+  background-color: #a0a0a0;
+  font-size: 32rpx;
+  line-height: 54rpx;
+  color: #fff;
+  text-align: center;
+}
+
+.btn.blue {
+  background-color: #2fa2ff;
+}
+
+.count {
+  font-size: 24rpx;
+  color: #000;
+  line-height: 26rpx;
+  margin-top: 68rpx;
+}
+
+.count .num {
+  color: #2fa2ff;
+}

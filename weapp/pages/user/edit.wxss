@@ -1,0 +1,20 @@
+/* pages/user/edit.wxss */
+.item {
+  height: 88rpx;
+  background-color: #fff;
+  display: flex;
+  line-height: 88rpx;
+  align-items: center;
+  padding-left: 30rpx;
+  border-bottom: 1px solid  #e5e5e5;
+}
+.label{
+  font-size: 34rpx;
+  color: #000000;
+  flex: 1;
+}
+.path {
+  width: 16rpx;
+  height: 25rpx;
+  margin-right: 30rpx;
+}

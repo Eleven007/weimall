@@ -1,37 +1,39 @@
 <!--pages/user/user.wxml-->
 <view class='container'>
-  <view class='hd'>
-    <view class='avator'>
-      <image src='../../images/img2.jpg'></image>
+  <navigator hover-class="none" url="/pages/user/edit">
+    <view class='hd'>
+      <view class='avator'>
+        <image src='../../images/img2.jpg'></image>
+      </view>
+      <view class='info'>
+        <view class='name'>想名字好麻烦</view>
+        <view class='desc'>学员、讲师</view>
+      </view>
+      <view>
+        <image class='path' src='../../images/path.png'></image>
+      </view>
     </view>
-    <view class='info'>
-      <view class='name'>想名字好麻烦</view>
-      <view class='desc'>学员、讲师</view>
-    </view>
-    <view >
-      <image class='path' src='../../images/path.png'></image>
-    </view>
-  </view>
+  </navigator>
   <view class='nav'>
-    <navigator hover-class="none" url="/pages/live/live">
+    <navigator hover-class="none" url="/pages/user/foucs">
       <view class='item' style='margin:30rpx 0;'>
         <view class='label'>我关注的课程</view>
         <image class='path' src='../../images/path.png'></image>
       </view>
     </navigator>
-    <navigator hover-class="none" url="/pages/live/live">
+    <navigator hover-class="none" url="/pages/user/open">
       <view class='item'>
         <view class='label'>我开设的课程</view>
         <image class='path' src='../../images/path.png'></image>
       </view>
     </navigator>
-    <navigator hover-class="none" url="/pages/live/live">
+    <navigator hover-class="none" url="/pages/user/complate">
       <view class='item'>
         <view class='label'>我完成的课程</view>
         <image class='path' src='../../images/path.png'></image>
       </view>
     </navigator>
-    <navigator hover-class="none" url="/pages/live/live">
+    <navigator hover-class="none" url="/pages/user/cancle">
       <view class='item'>
         <view class='label'>我取消的课程</view>
         <image class='path' src='../../images/path.png'></image>

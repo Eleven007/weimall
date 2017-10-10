@@ -1,0 +1,78 @@
+<view class="container">
+  <view class='main'>
+    <view class='bd'>
+      <view class='citem'>
+        <view class='nav' hover-class="none" url="/pages/live/live">
+          <view class='top'>
+            <view class='title'>
+               <navigator hover-class="none" url="/pages/live/live">10万销售业绩的必经之路</navigator>
+            </view>
+            <view class='time'>
+              <image src='../../images/time.png'></image>
+              <text> 2017-02-02 12:00</text>
+            </view>
+          </view>
+          <view class='bottom'>
+            <view class='user'>
+              <image class='avator' src='../../images/img2.jpg'></image>
+              <text class='name'>王谢</text>
+            </view>
+            <view class='guanzhu'>
+              <view class='btn blue'>重新开启</view>
+              <view class='count'>已有
+                <text class='num'>120</text>人关注</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='citem'>
+        <view class='nav' hover-class="none" url="/pages/live/live">
+          <view class='top'>
+            <view class='title'>
+               <navigator hover-class="none" url="/pages/live/live">10万销售业绩的必经之路</navigator>
+            </view>
+            <view class='time'>
+              <image src='../../images/time.png'></image>
+              <text> 2017-02-02 12:00</text>
+            </view>
+          </view>
+          <view class='bottom'>
+            <view class='user'>
+              <image class='avator' src='../../images/img2.jpg'></image>
+              <text class='name'>王谢</text>
+            </view>
+            <view class='guanzhu'>
+              <view class='btn blue'>重新开启</view>
+              <view class='count'>已有
+                <text class='num'>120</text>人关注</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='citem'>
+        <view class='nav' hover-class="none" url="/pages/live/live">
+          <view class='top'>
+            <view class='title'>
+               <navigator hover-class="none" url="/pages/live/live">10万销售业绩的必经之路</navigator>
+            </view>
+            <view class='time'>
+              <image src='../../images/time.png'></image>
+              <text> 2017-02-02 12:00</text>
+            </view>
+          </view>
+          <view class='bottom'>
+            <view class='user'>
+              <image class='avator' src='../../images/img2.jpg'></image>
+              <text class='name'>王谢</text>
+            </view>
+            <view class='guanzhu'>
+              <view class='btn blue'>重新开启</view>
+              <view class='count'>已有
+                <text class='num'>120</text>人关注</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

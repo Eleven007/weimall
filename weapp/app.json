@@ -2,7 +2,12 @@
   "pages": [
     "pages/user/user",
     "pages/index/index",
-    "pages/live/live"
+    "pages/live/live",
+    "pages/user/foucs",
+    "pages/user/open",
+    "pages/user/complate",
+    "pages/user/cancle",
+    "pages/user/edit"
   ],
   "window": {
     "backgroundTextStyle": "#fff",
