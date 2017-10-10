@@ -20,7 +20,7 @@
   border: solid 1px #b4b4b4;
 }
 
-.path image {
+.path {
   width: 16rpx;
   height: 25rpx;
   margin-right: 30rpx;
@@ -39,4 +39,22 @@
 .desc {
   font-size: 26rpx;
   color: #aaa;
+}
+
+.nav {
+}
+
+.item {
+  height: 88rpx;
+  background-color: #fff;
+  display: flex;
+  line-height: 88rpx;
+  align-items: center;
+  padding-left: 30rpx;
+  border-bottom: 1px solid  #e5e5e5;
+}
+.label{
+  font-size: 34rpx;
+  color: #000000;
+  flex: 1;
 }
