@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   background-color: #1b222b;
+  z-index: 1000
 }
 
 .live .title {
@@ -25,7 +26,7 @@
   z-index: 1000;
 }
 
-.live image {
+.live .figure {
   height: 510rpx;
   width: 430rpx;
 }
@@ -73,6 +74,7 @@
   overflow: hidden;
   display: flex;
   border-bottom: 1px solid #eeeeee;
+  z-index: 1000
 }
 
 .switch view {
@@ -124,7 +126,6 @@ scroll-view {
   background-color: #ffffff;
   border: solid 1px #e6e6ea;
   margin-left: 20rpx;
-  margin-right: 40rpx;
   padding: 0 10rpx;
   font-size: 28rpx;
   color: #202020;
@@ -139,5 +140,37 @@ scroll-view {
   line-height: 56rpx;
   text-align: center;
   padding: 0;
-  margin: 0;
+  margin: 0 14rpx 0 0;
+}
+.face{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+  margin-right: 16rpx;
+}
+.playing{
+  position: absolute;
+  z-index: 1000;
+  width:140rpx;
+  height: 140rpx;
+}
+.cancel{
+  position: absolute;
+  z-index: 1000;
+  width:83rpx;
+  height: 83rpx;
+}
+.record{
+  position: absolute;
+  z-index: 1000;
+  width: 68rpx;
+  height: 68rpx;
+  background-color: #2fa2ff;
+  text-align: center;
+  padding: 16rpx;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 32rpx;
+  line-height:34rpx;
+  bottom: 20rpx;
 }

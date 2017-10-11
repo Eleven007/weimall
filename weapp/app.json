@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/live/live",
     "pages/user/user",
     "pages/index/index",
-    "pages/live/live",
     "pages/user/foucs",
     "pages/user/open",
     "pages/user/complate",

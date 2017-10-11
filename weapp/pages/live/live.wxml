@@ -1,87 +1,38 @@
 <!--pages/live/live.wxml-->
 <view class='container'>
   <view class='live'>
-    <!-- <image src='../../images/img1.jpg'></image> -->
+    <!-- <image src='../../images/img1.jpg' class='figure'></image> -->
     <view class='title'>10万销售业绩的必经之路</view>
-    <video src='rtmp://live.hkstv.hk.lxdns.com/live/hks'></video>
-    <!-- <view class='timeline'>
+    <video src='http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400'
+      controls="{{false}}" autoplay='{{true}}'></video>
+    <view class='timeline'>
       <view class='point'></view>
       <view class='status'>正在直播</view>
       <view class='time'>00:00:00</view>
-    </view> -->
+    </view>
+    <!-- <image src='../../images/play.png' class='playing'></image> -->
+    <image src='../../images/cancel.png' style='display:{{showCancel?"block":"none"}}' class='cancel'></image>
+    <view class='record' id='record' bindtouchstart='startRecord' bindtouchend='stopRecord' bindtouchmove='moveEvent'>按住说话</view>
   </view>
   <view class='switch'>
-    <view class='all on'>课堂互动</view>
-    <view class='tc'>只看老师</view>
+    <view class='all {{showTc?"":"on"}}' bindtap='showClass'>课堂互动</view>
+    <view class='tc {{showTc?"on":""}}' bindtap='showTeacher'>只看老师</view>
   </view>
   <view class='comment'>
     <scroll-view scroll-y>
       <view class='con'>
-        <view class='item blue'>
-          <view class='user'>王谢[老师]：</view>
-          <view class='txt'>大家好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
-        <view class='item'>
-          <view class='user'>逍遥：</view>
-          <view class='txt'>老师好</view>
-        </view>
+        <block wx:for="{{message}}">
+          <view class='item {{item.type==1?"blue":""}}'>
+            <view class='user'>{{item.userName}}：</view>
+            <view class='txt'>{{item.msg}}</view>
+          </view>
+        </block>
       </view>
     </scroll-view>
   </view>
   <view class='submit'>
-    <input></input>
-    <button class='btn-submit'>发送</button>
+    <input bindinput='inputChange' value='{{newMsg}}'></input>
+    <image src='../../images/face.png' class='face'></image>
+    <button class='btn-submit' bindtap='sendMsg'>发送</button>
   </view>
 </view>
