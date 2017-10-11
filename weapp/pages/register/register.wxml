@@ -1,0 +1,53 @@
+<!--pages/register/register.wxml-->
+<view class='container'>
+  <view class='inputItem'>
+    <view class='label'>讲师姓名</view>
+    <input class='input' bindinput='nameChange' placeholder='请填写' placeholder-style="color:#bfbfbf"></input>
+  </view>
+  <view class='inputItem'>
+    <view class='label'>讲师电话</view>
+    <input class='input' bindinput='telChange' placeholder='请填写' placeholder-style="color:#bfbfbf"></input>
+  </view>
+  <view class='inputItem'>
+    <view class='label'>授课范围</view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <input class='input' style='color:{{array[index]?"#000000":"#bfbfbf"}}' value='{{array[index]||"请选择"}}'></input>
+    </picker>
+  </view>
+  <view class='inputItem'>
+    <view class='label' style='margin-top:-88rpx;'>个人介绍</view>
+    <textarea class='input' bindinput='introChange' placeholder='内容在56个字以内' placeholder-style="color:#bfbfbf"></textarea>
+  </view>
+  <view class='upload'>
+    <view class='hd'>讲师个人图片
+      <text>用于讲师简介以及授课背景</text>
+    </view>
+    <view class='uploadBtn'>
+      <view class='btn-add'>
+        <view class='addImg' bindtap='uploadIntro'>
+          <image src='../../images/add.png'></image>
+        </view>
+        <view class='tip'>仅一张</view>
+      </view>
+    </view>
+  </view>
+  <view class='upload'>
+    <view class='hd'>师资介绍图片
+      <text>用于讲师详情展示</text>
+    </view>
+    <view class='uploadBtn'>
+      <view class='btn-add'>
+        <view class='addImg' bindtap='uploadDetail'>
+          <image src='../../images/add.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='xieyi'>
+    <image src='../../images/agree.png' class='agree'></image>
+    <view class='txt'>我已阅读并同意<text class='blue'>《微信课堂服务协议》</text>的内容</view>
+  </view>
+  <view class='btn-submit' bindtap='submitForm'>提交申请</view>
+</view>
+<import src="../../components/toast/showToast.wxml" />
+<template is="showToast" data="{{showToast: showToast}}" />

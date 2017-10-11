@@ -16,7 +16,7 @@
               <image src='../../images/time.png'></image>
               <text> 2017-02-02 12:00</text>
             </view>
-            <image class='share' src='../../images/share.png'></image>
+           <button class='shareBtn' open-type='share'><image class='share' src='../../images/share.png' bindtap='toShare'></image></button>
           </view>
           <view class='bottom'>
             <view class='user'>
@@ -44,7 +44,7 @@
               <image src='../../images/time.png'></image>
               <text> 2017-02-02 12:00</text>
             </view>
-            <image class='share' src='../../images/share.png'></image>
+           <button class='shareBtn' open-type='share'><image class='share' src='../../images/share.png' bindtap='toShare'></image></button>
           </view>
           <view class='bottom'>
             <view class='user'>
@@ -71,7 +71,7 @@
               <image src='../../images/time.png'></image>
               <text> 2017-02-02 12:00</text>
             </view>
-            <image class='share' src='../../images/share.png'></image>
+            <button class='shareBtn' open-type='share'><image class='share' src='../../images/share.png' bindtap='toShare'></image></button>
           </view>
           <view class='bottom'>
             <view class='user'>

@@ -1,12 +1,13 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/live/live",
     "pages/user/user",
-    "pages/index/index",
     "pages/user/foucs",
     "pages/user/open",
     "pages/user/complate",
     "pages/user/cancle",
+    "pages/register/register",
     "pages/user/edit"
   ],
   "window": {

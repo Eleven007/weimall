@@ -1,0 +1,107 @@
+/* pages/register/register.wxss */
+@import "../../components/toast/showToast.wxss";
+.inputItem {
+  padding: 24rpx 30rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.label {
+  display: block;
+  font-size: 32rpx;
+  color: #000;
+  line-height: 36rpx;
+  white-space: nowrap;
+}
+
+.input {
+  margin-left: 57rpx;
+  font-size: 32rpx;
+  line-height: 36rpx;
+}
+
+textarea {
+  height: 120rpx;
+  font-size: 32rpx;
+}
+.upload{
+  border-bottom: 1px solid #e5e5e5;
+}
+.upload .hd {
+  display: flex;
+  font-size: 32rpx;
+  color: #202020;
+  height: 55rpx;
+  line-height: 55rpx;
+  padding-left: 30rpx;
+}
+
+.upload .hd text {
+  margin-left: 10rpx;
+  font-size: 24rpx;
+  color: #888;
+}
+
+.uploadBtn {
+  padding: 30rpx;
+  background: #fff;
+}
+
+.btn-add {
+  display: flex;
+  height: 116rpx;
+  align-items: flex-end;
+}
+
+.btn-add .addImg {
+  width: 116rpx;
+  height: 116rpx;
+  border-radius: 1px;
+  border: solid 1px #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-add .addImg image {
+  width: 56rpx;
+  height: 56rpx;
+}
+
+.tip {
+  font-size: 24rpx;
+  color: #ccc;
+  margin-left: 14rpx;
+}
+
+.xieyi {
+  margin-top: 178rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agree {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.txt{
+  font-size: 24rpx;
+  color: #636363;
+}
+.blue{
+  color: #2fa2ff;
+}
+.btn-submit{
+  margin-top: 24rpx;
+  height: 88rpx;
+  background-color: #2fa2ff;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #fefefe;
+  line-height: 88rpx;
+  text-align: center;
+}

@@ -75,12 +75,26 @@
   color: #000;
 }
 
-.share {
+.shareBtn {
   position: absolute;
-  width: 34rpx;
-  height: 36rpx;
+  width: 40rpx;
+  height: 40rpx;
   right: 0rpx;
   top: 20rpx;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  border: none;
+  background: transparent;
+
+}
+.shareBtn::after{
+  width: 0;
+  height: 0;
+}
+.share {
+  width: 34rpx;
+  height: 36rpx;
 }
 
 .bottom {
@@ -135,6 +149,7 @@
   line-height: 26rpx;
   margin-top: 14rpx;
 }
-.count .num{
-  color: #2fa2ff
+
+.count .num {
+  color: #2fa2ff;
 }
