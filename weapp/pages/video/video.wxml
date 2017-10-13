@@ -1,0 +1,58 @@
+<!--pages/live/live.wxml-->
+<view class='container'>
+  <view class='live'>
+    <!-- <image src='../../images/img1.jpg' class='figure'></image> -->
+    <view class='title'>10万销售业绩的必经之路</view>
+    <video src='http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400'
+      controls="{{true}}" autoplay='{{true}}'></video>
+    <image src='../../images/play.png' class='playing'></image>
+  </view>
+  <view class='switch'>
+    <view class='all {{showTc?"":"on"}}' bindtap='showClass'>课程详情</view>
+    <view class='tc {{showTc?"on":""}}' bindtap='showTeacher'>讲师简介</view>
+  </view>
+  <view class='course' wx:if="{{!showTc}}">
+    <scroll-view scroll-y>
+      <view class='con'>
+        <image src='../../images/img3.jpg' mode='widthFix'></image>
+        <image src='../../images/img3.jpg' mode='widthFix'></image>
+      </view>
+    </scroll-view>
+  </view>
+  <view class='teacherInfo' wx:else>
+    <scroll-view scroll-y>
+      <view class='con'>
+        <view class='teacherMsg'>
+          <view class='tavator'>
+            <image src='../../images/img2.jpg'></image>
+          </view>
+          <view class='info'>
+            <view class='flex'>
+              <view class='name'>王谢</view>
+              <view class='focus' bindtap='doFocus' wx:if="{{!hasFocus}}">关注</view>
+              <view class='focus grey' wx:else>已关注</view>
+            </view>
+            <view class='type'>
+              <view class='label'>课程类别A</view>
+              <view class='label'>课程类别b</view>
+            </view>
+            <view class='desc'>十年微商经验，创下微商月营业 额十万的第一人，对团队管理、 人际管理有独到的见解
+            </view>
+          </view>
+        </view>
+        <view class='teacherImg'>
+          <image src='../../images/img3.jpg' mode='widthFix'></image>
+          <image src='../../images/img3.jpg' mode='widthFix'></image>
+        </view>
+      </view>
+    </scroll-view>
+    <view class='bottom'>
+      <view class='people'>已有
+        <text class='blue'>200</text>人关注</view>
+      <view class='btn-focus' bindtap='doFocus' wx:if="{{!hasFocus}}">关注</view>
+      <view class='btn-focus grey' wx:else>已关注</view>
+    </view>
+  </view>
+</view>
+<import src="../../components/toast/showToast.wxml" />
+<template is="showToast" data="{{showToast: showToast}}" />

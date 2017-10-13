@@ -1,0 +1,238 @@
+/* pages/live/live.wxss */
+@import "../../components/toast/showToast.wxss";
+.container {
+  position: relative;
+  height: 100%;
+}
+
+.live {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 350rpx;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b222b;
+  z-index: 1000;
+}
+
+.live .title {
+  position: absolute;
+  top: 0rpx;
+  font-size: 32rpx;
+  color: #fffefe;
+  z-index: 1000;
+}
+
+.live .figure {
+  height: 510rpx;
+  width: 430rpx;
+}
+
+.live video {
+  height: 100%;
+  width: 100%;
+}
+
+.timeline {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  font-size: 20rpx;
+  color: #fff;
+  height: 40rpx;
+  line-height: 40rpx;
+  align-items: center;
+}
+
+.point {
+  width: 15rpx;
+  height: 15rpx;
+  background-color: #2fa2ff;
+  border-radius: 15rpx;
+  margin-left: 22rpx;
+  margin-right: 15rpx;
+}
+
+.status {
+  margin-right: 15rpx;
+}
+
+.comment {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.switch {
+  position: absolute;
+  width: 100%;
+  height: 68rpx;
+  line-height: 68rpx;
+  top: 350rpx;
+  overflow: hidden;
+  display: flex;
+  border-bottom: 1px solid #eee;
+  z-index: 1000;
+}
+
+.switch view {
+  flex: 1;
+  text-align: center;
+  font-size: 32rpx;
+  color: #888;
+}
+
+.switch view.on {
+  color: #2fa2ff;
+}
+
+.teacherInfo, .course {
+  position: absolute;
+  width: 100%;
+  top: 418rpx;
+  bottom: 0;
+  font-size: 28rpx;
+  color: #202020;
+  line-height: 64rpx;
+}
+
+scroll-view {
+  height: 100%;
+}
+
+.course image {
+  width: 100%;
+}
+
+.blue {
+  color: #2fa2ff;
+}
+
+.con {
+}
+
+.item {
+}
+
+.user {
+  white-space: nowrap;
+  float: left;
+}
+
+.teacherImg image {
+  width: 100%;
+}
+
+.submit {
+  position: absolute;
+  width: 100%;
+  height: 88rpx;
+  bottom: 0;
+  overflow: hidden;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+}
+
+.playing {
+  position: absolute;
+  z-index: 1000;
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.teacherMsg {
+  display: flex;
+  flex-direction: row;
+  padding: 40rpx 25rpx 40rpx 50rpx;
+}
+
+.tavator {
+  width: 237rpx;
+  height: 300rpx;
+}
+
+.tavator image {
+  width: 237rpx;
+  height: 300rpx;
+}
+
+.info {
+  padding-left: 30rpx;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 42rpx;
+  color: #2fa2ff;
+  text-decoration: underline;
+}
+
+.focus {
+  width: 120rpx;
+  height: 54rpx;
+  border-radius: 10rpx;
+  background-color: #2fa2ff;
+  font-size: 32rpx;
+  color: #fff;
+  line-height: 54rpx;
+  text-align: center;
+}
+
+.type {
+  display: flex;
+  flex-direction: row;
+}
+
+.label {
+  font-size: 28rpx;
+  color: #202020;
+  margin-right: 10rpx;
+}
+
+.desc {
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #202020;
+}
+
+.teacherInfo {
+  padding-bottom: 88rpx;
+}
+
+.bottom {
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  height: 88rpx;
+  align-items: center;
+  padding-left: 25rpx;
+  justify-content: space-between;
+}
+
+.btn-focus {
+  width: 199rpx;
+  background-color: #2fa2ff;
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #fff;
+}
+.grey{
+  background-color: #999999;
+}
